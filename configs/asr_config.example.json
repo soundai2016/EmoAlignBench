@@ -1,0 +1,7 @@
+{
+  "audio_dir": "data/ad_nasdaq_earningscall",
+  "out_dir": "data/ad_nasdaq_transcripts",
+  "asr_ws_url": "wss://example-asr-endpoint/streaming",
+  "max_workers": 5,
+  "language": "en"
+}

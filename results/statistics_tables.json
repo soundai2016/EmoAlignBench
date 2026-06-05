@@ -1,0 +1,169 @@
+{
+  "metrics": {
+    "num_pairs": 812,
+    "contagion_r": 0.214,
+    "contagion_p": 7.139559499267661e-10,
+    "contagion_fisher_ci_low": 0.1474672164427247,
+    "contagion_fisher_ci_high": 0.2787882124710579,
+    "contagion_cluster_ci_low": 0.11985582360758057,
+    "contagion_cluster_ci_high": 0.30855134486610963,
+    "within_call_permutation_p": 0.002749312671832042,
+    "pitch_variability_ratio_mean": 1.6225,
+    "harmonic_residual_ratio_mean": 1.1539,
+    "voice_arousal_ratio_mean": 0.8571,
+    "p_values": {
+      "voice_valence": 0.03913842894212364,
+      "text_valence": 2.390165644707704e-06,
+      "f0_std_ratio": 1.0984851945554422e-12,
+      "hnr_proxy_ratio": 0.002219038336162927,
+      "voice_arousal_ratio": 3.4991955130677118e-15,
+      "f0_std": 0.03520437815436405,
+      "emotion_incongruence": 0.6211712350765171
+    },
+    "q_values": {
+      "voice_valence": 0.045661500432477575,
+      "text_valence": 5.5770531709846424e-06,
+      "f0_std_ratio": 3.844698180944048e-12,
+      "hnr_proxy_ratio": 0.003883317088285122,
+      "voice_arousal_ratio": 2.4494368591473983e-14,
+      "f0_std": 0.045661500432477575,
+      "emotion_incongruence": 0.6211712350765171
+    },
+    "significance": {
+      "voice_valence": "*",
+      "text_valence": "***",
+      "f0_std_ratio": "***",
+      "hnr_proxy_ratio": "**",
+      "voice_arousal_ratio": "***",
+      "f0_std": "*",
+      "emotion_incongruence": "ns"
+    }
+  },
+  "table_role_stats": {
+    "Analyst": {
+      "text_valence": {
+        "mean": -0.1872,
+        "std": 0.3903
+      },
+      "voice_valence": {
+        "mean": 0.7488,
+        "std": 0.4668
+      },
+      "f0_std": {
+        "mean": 83.6984,
+        "std": 109.1557
+      },
+      "emotion_incongruence": {
+        "mean": 0.9581,
+        "std": 0.5492
+      },
+      "f0_std_ratio": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "hnr_proxy_ratio": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "voice_arousal_ratio": {
+        "mean": 1.0,
+        "std": 0.0
+      }
+    },
+    "Executive": {
+      "text_valence": {
+        "mean": -0.1318,
+        "std": 0.3385
+      },
+      "voice_valence": {
+        "mean": 0.7956,
+        "std": 0.4359
+      },
+      "f0_std": {
+        "mean": 86.4814,
+        "std": 104.3941
+      },
+      "emotion_incongruence": {
+        "mean": 0.947,
+        "std": 0.495
+      },
+      "f0_std_ratio": {
+        "mean": 1.6225,
+        "std": 1.4571
+      },
+      "hnr_proxy_ratio": {
+        "mean": 1.1539,
+        "std": 0.689
+      },
+      "voice_arousal_ratio": {
+        "mean": 0.8571,
+        "std": 0.55
+      }
+    }
+  },
+  "robustness_summary": {
+    "n_pairs": 812,
+    "contagion": {
+      "r": 0.2140948729019489,
+      "p": 7.139559499267661e-10,
+      "ci_fisher": [
+        0.1474672164427247,
+        0.2787882124710579
+      ],
+      "ci_cluster_bootstrap": [
+        0.11985582360758057,
+        0.30855134486610963
+      ],
+      "p_within_call_permutation": 0.002749312671832042
+    },
+    "role_tests": {
+      "voice_valence": {
+        "p_raw": 0.03913842894212364,
+        "q_fdr": 0.045661500432477575,
+        "sig_fdr": "*",
+        "direction": "up"
+      },
+      "text_valence": {
+        "p_raw": 2.390165644707704e-06,
+        "q_fdr": 5.5770531709846424e-06,
+        "sig_fdr": "***",
+        "direction": "up"
+      },
+      "f0_std_ratio": {
+        "p_raw": 1.0984851945554422e-12,
+        "q_fdr": 3.844698180944048e-12,
+        "sig_fdr": "***",
+        "direction": "up"
+      },
+      "hnr_proxy_ratio": {
+        "p_raw": 0.002219038336162927,
+        "q_fdr": 0.003883317088285122,
+        "sig_fdr": "**",
+        "direction": "up"
+      },
+      "voice_arousal_ratio": {
+        "p_raw": 3.4991955130677118e-15,
+        "q_fdr": 2.4494368591473983e-14,
+        "sig_fdr": "***",
+        "direction": "down"
+      },
+      "f0_std": {
+        "p_raw": 0.03520437815436405,
+        "q_fdr": 0.045661500432477575,
+        "sig_fdr": "*",
+        "direction": "up"
+      },
+      "emotion_incongruence": {
+        "p_raw": 0.6211712350765171,
+        "q_fdr": 0.6211712350765171,
+        "sig_fdr": "ns",
+        "direction": "down"
+      }
+    }
+  },
+  "schema": {
+    "version": "2.0",
+    "table_storage": "json_or_csv_only",
+    "latex_macro_outputs": false
+  }
+}

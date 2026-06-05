@@ -1,0 +1,14 @@
+table,section,metric,value,expected,status,source_json
+S1_validation_gates,dataset,raw_utterance_rows,142751,142751,PASS,validation_report.json
+S1_validation_gates,dataset,source_audio_hours,95.07,95.07,PASS,validation_report.json
+S1_validation_gates,cached_artifact,turn_rows_before_signal_pair_qc,1852,1852,PASS,validation_report.json
+S1_validation_gates,cached_artifact,pairs_before_signal_pair_qc,926,926,PASS,validation_report.json
+S1_validation_gates,structural_role,pairs_with_exactly_one_analyst_and_one_executive,926,926,PASS,validation_report.json
+S1_validation_gates,structural_role,pairs_with_duplicate_or_missing_roles,0,0,PASS,validation_report.json
+S1_validation_gates,structural_role,slice_start_before_end_for_all_rows,True,True,PASS,validation_report.json
+S1_validation_gates,signal,missing_required_signal_columns,0,0,PASS,validation_report.json
+S1_validation_gates,signal,complete_signal_pairs,812,812,PASS,validation_report.json
+S1_validation_gates,signal,complete_signal_turn_rows,1624,1624,PASS,validation_report.json
+S1_validation_gates,signal,dropped_pairs_after_signal_qc,114,114,PASS,validation_report.json
+S1_validation_gates,statistical,call_groups_available,202,202,PASS,validation_report.json
+S1_validation_gates,overall,overall_pass,True,True,PASS,validation_report.json

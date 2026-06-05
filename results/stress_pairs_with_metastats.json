@@ -1,0 +1,1872 @@
+{
+  "dataset_integrity_statistics": {
+    "expected_events_from_index": 231,
+    "valid_audio_files": 231,
+    "missing_audio_files": 0,
+    "abnormal_audio_ignored": 0,
+    "events_with_stock_price": 231
+  },
+  "turn_pair_statistics": {
+    "uids_total": 231,
+    "uids_with_emitted_pairs": 216,
+    "pairs_emitted_total": 926,
+    "rows_emitted_total": 1852
+  },
+  "per_uid_stats": {
+    "ABBV_20250425_EC": {
+      "turns_total": 25,
+      "pairs_total": 12,
+      "pairs_emitted": 9,
+      "pairs_triggered": 9,
+      "pair_id_start": 0,
+      "pair_id_next": 9
+    },
+    "ABT_20230125_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 9,
+      "pair_id_next": 14
+    },
+    "ABT_20230419_EC": {
+      "turns_total": 11,
+      "pairs_total": 5,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 14,
+      "pair_id_next": 18
+    },
+    "ABT_20230720_EC": {
+      "turns_total": 14,
+      "pairs_total": 7,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 18,
+      "pair_id_next": 22
+    },
+    "ABT_20231018_EC": {
+      "turns_total": 21,
+      "pairs_total": 10,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 22,
+      "pair_id_next": 27
+    },
+    "ABT_20240417_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 27,
+      "pair_id_next": 31
+    },
+    "ADI_20240522_EC": {
+      "turns_total": 4,
+      "pairs_total": 2,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 31,
+      "pair_id_next": 33
+    },
+    "AEE_20241107_EC": {
+      "turns_total": 11,
+      "pairs_total": 5,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 33,
+      "pair_id_next": 35
+    },
+    "AFL_20230427_EC": {
+      "turns_total": 8,
+      "pairs_total": 4,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 35,
+      "pair_id_next": 39
+    },
+    "AFL_20250206_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 39,
+      "pair_id_next": 43
+    },
+    "AMAT_20240815_EC": {
+      "turns_total": 33,
+      "pairs_total": 16,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 43,
+      "pair_id_next": 49
+    },
+    "AMD_20220802_EC": {
+      "turns_total": 15,
+      "pairs_total": 7,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 49,
+      "pair_id_next": 54
+    },
+    "AMD_20230801_EC": {
+      "turns_total": 46,
+      "pairs_total": 23,
+      "pairs_emitted": 22,
+      "pairs_triggered": 22,
+      "pair_id_start": 54,
+      "pair_id_next": 76
+    },
+    "AMD_20240730_EC": {
+      "turns_total": 24,
+      "pairs_total": 12,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 76,
+      "pair_id_next": 80
+    },
+    "AMD_20241029_EC": {
+      "turns_total": 35,
+      "pairs_total": 17,
+      "pairs_emitted": 16,
+      "pairs_triggered": 16,
+      "pair_id_start": 80,
+      "pair_id_next": 96
+    },
+    "AMD_20250204_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 96,
+      "pair_id_next": 100
+    },
+    "AME_20241031_EC": {
+      "turns_total": 19,
+      "pairs_total": 9,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 100,
+      "pair_id_next": 104
+    },
+    "AMT_20240430_EC": {
+      "turns_total": 14,
+      "pairs_total": 7,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 104,
+      "pair_id_next": 109
+    },
+    "AMT_20241029_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 109,
+      "pair_id_next": 112
+    },
+    "ANET_20230501_EC": {
+      "turns_total": 15,
+      "pairs_total": 7,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 112,
+      "pair_id_next": 118
+    },
+    "ANET_20240212_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 118,
+      "pair_id_next": 124
+    },
+    "ANET_20240730_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 124,
+      "pair_id_next": 128
+    },
+    "ANET_20250506_EC": {
+      "turns_total": 23,
+      "pairs_total": 11,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 128,
+      "pair_id_next": 133
+    },
+    "AON_20220729_EC": {
+      "turns_total": 14,
+      "pairs_total": 7,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 133,
+      "pair_id_next": 138
+    },
+    "AON_20230428_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 138,
+      "pair_id_next": 143
+    },
+    "AON_20230728_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 143,
+      "pair_id_next": 146
+    },
+    "AON_20240426_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 146,
+      "pair_id_next": 150
+    },
+    "AON_20241025_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 150,
+      "pair_id_next": 154
+    },
+    "APD_2022Q2_EC": {
+      "turns_total": 2,
+      "pairs_total": 1,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 154,
+      "pair_id_next": 155
+    },
+    "APD_2022Q3_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 155,
+      "pair_id_next": 155
+    },
+    "APD_2024Q4_EC": {
+      "turns_total": 26,
+      "pairs_total": 13,
+      "pairs_emitted": 8,
+      "pairs_triggered": 8,
+      "pair_id_start": 155,
+      "pair_id_next": 163
+    },
+    "APH_20230426_EC": {
+      "turns_total": 23,
+      "pairs_total": 11,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 163,
+      "pair_id_next": 168
+    },
+    "APH_20231025_EC": {
+      "turns_total": 20,
+      "pairs_total": 10,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 168,
+      "pair_id_next": 170
+    },
+    "APH_20240124_EC": {
+      "turns_total": 27,
+      "pairs_total": 13,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 170,
+      "pair_id_next": 173
+    },
+    "APH_20240724_EC": {
+      "turns_total": 28,
+      "pairs_total": 14,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 173,
+      "pair_id_next": 175
+    },
+    "APP_20240213_EC": {
+      "turns_total": 17,
+      "pairs_total": 8,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 175,
+      "pair_id_next": 178
+    },
+    "APP_20240508_EC": {
+      "turns_total": 15,
+      "pairs_total": 7,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 178,
+      "pair_id_next": 181
+    },
+    "APP_20250507_EC": {
+      "turns_total": 27,
+      "pairs_total": 13,
+      "pairs_emitted": 10,
+      "pairs_triggered": 10,
+      "pair_id_start": 181,
+      "pair_id_next": 191
+    },
+    "ARM_20240731_EC": {
+      "turns_total": 22,
+      "pairs_total": 11,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 191,
+      "pair_id_next": 196
+    },
+    "ASML_20221019_EC": {
+      "turns_total": 5,
+      "pairs_total": 2,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 196,
+      "pair_id_next": 197
+    },
+    "ASML_20230719_EC": {
+      "turns_total": 2,
+      "pairs_total": 1,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 197,
+      "pair_id_next": 198
+    },
+    "ASML_20240417_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 198,
+      "pair_id_next": 201
+    },
+    "AXP_20241018_EC": {
+      "turns_total": 22,
+      "pairs_total": 11,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 201,
+      "pair_id_next": 205
+    },
+    "AXP_20250124_EC": {
+      "turns_total": 31,
+      "pairs_total": 15,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 205,
+      "pair_id_next": 207
+    },
+    "AZN_20220729_EC": {
+      "turns_total": 20,
+      "pairs_total": 10,
+      "pairs_emitted": 9,
+      "pairs_triggered": 9,
+      "pair_id_start": 207,
+      "pair_id_next": 216
+    },
+    "AZN_20230427_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 216,
+      "pair_id_next": 223
+    },
+    "AZN_20240425_EC": {
+      "turns_total": 11,
+      "pairs_total": 5,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 223,
+      "pair_id_next": 228
+    },
+    "AZN_20240725_EC": {
+      "turns_total": 4,
+      "pairs_total": 2,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 228,
+      "pair_id_next": 230
+    },
+    "AZN_20250206_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 230,
+      "pair_id_next": 232
+    },
+    "BA_20221026_EC": {
+      "turns_total": 7,
+      "pairs_total": 3,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 232,
+      "pair_id_next": 234
+    },
+    "BA_20230125_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 234,
+      "pair_id_next": 240
+    },
+    "BA_20240731_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 240,
+      "pair_id_next": 241
+    },
+    "BA_20250128_EC": {
+      "turns_total": 11,
+      "pairs_total": 5,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 241,
+      "pair_id_next": 243
+    },
+    "BA_20250423_EC": {
+      "turns_total": 19,
+      "pairs_total": 9,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 243,
+      "pair_id_next": 248
+    },
+    "BKNG_20230504_EC": {
+      "turns_total": 15,
+      "pairs_total": 7,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 248,
+      "pair_id_next": 253
+    },
+    "BKNG_20230803_EC": {
+      "turns_total": 15,
+      "pairs_total": 7,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 253,
+      "pair_id_next": 258
+    },
+    "BLK_20230414_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 258,
+      "pair_id_next": 260
+    },
+    "BMY_20250424_EC": {
+      "turns_total": 37,
+      "pairs_total": 18,
+      "pairs_emitted": 13,
+      "pairs_triggered": 13,
+      "pair_id_start": 260,
+      "pair_id_next": 273
+    },
+    "BSX_20250423_EC": {
+      "turns_total": 24,
+      "pairs_total": 12,
+      "pairs_emitted": 12,
+      "pairs_triggered": 12,
+      "pair_id_start": 273,
+      "pair_id_next": 285
+    },
+    "BUD_20240801_EC": {
+      "turns_total": 13,
+      "pairs_total": 6,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 285,
+      "pair_id_next": 290
+    },
+    "BUD_20241031_EC": {
+      "turns_total": 22,
+      "pairs_total": 11,
+      "pairs_emitted": 8,
+      "pairs_triggered": 8,
+      "pair_id_start": 290,
+      "pair_id_next": 298
+    },
+    "BUD_20250226_EC": {
+      "turns_total": 9,
+      "pairs_total": 4,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 298,
+      "pair_id_next": 302
+    },
+    "BX_20240618_EC": {
+      "turns_total": 24,
+      "pairs_total": 12,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 302,
+      "pair_id_next": 304
+    },
+    "CAT_20250430_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 304,
+      "pair_id_next": 304
+    },
+    "CCEP_20250214_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 304,
+      "pair_id_next": 307
+    },
+    "CCEP_20250429_EC": {
+      "turns_total": 20,
+      "pairs_total": 10,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 307,
+      "pair_id_next": 308
+    },
+    "CEG_20220804_EC": {
+      "turns_total": 22,
+      "pairs_total": 11,
+      "pairs_emitted": 8,
+      "pairs_triggered": 8,
+      "pair_id_start": 308,
+      "pair_id_next": 316
+    },
+    "CEG_20221108_EC": {
+      "turns_total": 5,
+      "pairs_total": 2,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 316,
+      "pair_id_next": 317
+    },
+    "CEG_20230216_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 317,
+      "pair_id_next": 319
+    },
+    "CEG_20240806_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 319,
+      "pair_id_next": 324
+    },
+    "CHT_20210504_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 324,
+      "pair_id_next": 331
+    },
+    "CME_20221026_EC": {
+      "turns_total": 15,
+      "pairs_total": 7,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 331,
+      "pair_id_next": 334
+    },
+    "CME_20240424_EC": {
+      "turns_total": 30,
+      "pairs_total": 15,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 334,
+      "pair_id_next": 337
+    },
+    "CME_20240724_EC": {
+      "turns_total": 26,
+      "pairs_total": 13,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 337,
+      "pair_id_next": 342
+    },
+    "CME_20250212_EC": {
+      "turns_total": 4,
+      "pairs_total": 2,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 342,
+      "pair_id_next": 343
+    },
+    "CMS_2025Q1_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 343,
+      "pair_id_next": 346
+    },
+    "COF_20230124_EC": {
+      "turns_total": 9,
+      "pairs_total": 4,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 346,
+      "pair_id_next": 348
+    },
+    "COF_20230720_EC": {
+      "turns_total": 7,
+      "pairs_total": 3,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 348,
+      "pair_id_next": 350
+    },
+    "COF_20250121_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 350,
+      "pair_id_next": 354
+    },
+    "COR_20240501_EC": {
+      "turns_total": 2,
+      "pairs_total": 1,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 354,
+      "pair_id_next": 355
+    },
+    "COR_20250205_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 355,
+      "pair_id_next": 359
+    },
+    "CRWD_20240604_EC": {
+      "turns_total": 12,
+      "pairs_total": 6,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 359,
+      "pair_id_next": 363
+    },
+    "CRWD_20250304_EC": {
+      "turns_total": 22,
+      "pairs_total": 11,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 363,
+      "pair_id_next": 365
+    },
+    "CRWD_20250603_EC": {
+      "turns_total": 12,
+      "pairs_total": 6,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 365,
+      "pair_id_next": 369
+    },
+    "CTVA_20230804_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 369,
+      "pair_id_next": 371
+    },
+    "CTVA_20240201_EC": {
+      "turns_total": 4,
+      "pairs_total": 2,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 371,
+      "pair_id_next": 372
+    },
+    "CVX_20220729_EC": {
+      "turns_total": 12,
+      "pairs_total": 6,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 372,
+      "pair_id_next": 377
+    },
+    "CVX_20230127_EC": {
+      "turns_total": 20,
+      "pairs_total": 10,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 377,
+      "pair_id_next": 382
+    },
+    "CVX_20240426_EC": {
+      "turns_total": 30,
+      "pairs_total": 15,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 382,
+      "pair_id_next": 389
+    },
+    "C_20220715_EC": {
+      "turns_total": 24,
+      "pairs_total": 12,
+      "pairs_emitted": 10,
+      "pairs_triggered": 10,
+      "pair_id_start": 389,
+      "pair_id_next": 399
+    },
+    "C_20221014_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 399,
+      "pair_id_next": 403
+    },
+    "C_20241015_EC": {
+      "turns_total": 26,
+      "pairs_total": 13,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 403,
+      "pair_id_next": 410
+    },
+    "DAL_20231012_EC": {
+      "turns_total": 14,
+      "pairs_total": 7,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 410,
+      "pair_id_next": 413
+    },
+    "DB_20250429_EC": {
+      "turns_total": 23,
+      "pairs_total": 11,
+      "pairs_emitted": 11,
+      "pairs_triggered": 11,
+      "pair_id_start": 413,
+      "pair_id_next": 424
+    },
+    "DDOG_20230808_EC": {
+      "turns_total": 8,
+      "pairs_total": 4,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 424,
+      "pair_id_next": 427
+    },
+    "DE_20241122_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 427,
+      "pair_id_next": 427
+    },
+    "DLR_20241024_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 427,
+      "pair_id_next": 431
+    },
+    "DLTR_2023Q4_EC": {
+      "turns_total": 24,
+      "pairs_total": 12,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 431,
+      "pair_id_next": 434
+    },
+    "DRI_20240919_EC": {
+      "turns_total": 20,
+      "pairs_total": 10,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 434,
+      "pair_id_next": 440
+    },
+    "DRI_20241219_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 440,
+      "pair_id_next": 446
+    },
+    "DRI_20250629_EC": {
+      "turns_total": 23,
+      "pairs_total": 11,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 446,
+      "pair_id_next": 448
+    },
+    "DTE_20231101_EC": {
+      "turns_total": 28,
+      "pairs_total": 14,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 448,
+      "pair_id_next": 454
+    },
+    "DXCM_20220727_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 454,
+      "pair_id_next": 456
+    },
+    "DXCM_20240725_EC": {
+      "turns_total": 2,
+      "pairs_total": 1,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 456,
+      "pair_id_next": 457
+    },
+    "DXCM_20250501_EC": {
+      "turns_total": 4,
+      "pairs_total": 2,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 457,
+      "pair_id_next": 459
+    },
+    "EBAY_20220504_EC": {
+      "turns_total": 8,
+      "pairs_total": 4,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 459,
+      "pair_id_next": 463
+    },
+    "EBAY_20220803_EC": {
+      "turns_total": 13,
+      "pairs_total": 6,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 463,
+      "pair_id_next": 467
+    },
+    "EBAY_20221102_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 467,
+      "pair_id_next": 474
+    },
+    "EBAY_20230222_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 474,
+      "pair_id_next": 477
+    },
+    "EBAY_20230426_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 477,
+      "pair_id_next": 479
+    },
+    "EBAY_20230726_EC": {
+      "turns_total": 13,
+      "pairs_total": 6,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 479,
+      "pair_id_next": 483
+    },
+    "EBAY_20240731_EC": {
+      "turns_total": 9,
+      "pairs_total": 4,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 483,
+      "pair_id_next": 485
+    },
+    "EL_20240819_EC": {
+      "turns_total": 11,
+      "pairs_total": 5,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 485,
+      "pair_id_next": 488
+    },
+    "EL_20250501_EC": {
+      "turns_total": 3,
+      "pairs_total": 1,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 488,
+      "pair_id_next": 488
+    },
+    "EMR_20250507_EC": {
+      "turns_total": 7,
+      "pairs_total": 3,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 488,
+      "pair_id_next": 489
+    },
+    "ENB_20240802_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 489,
+      "pair_id_next": 493
+    },
+    "EOG_20240802_EC": {
+      "turns_total": 19,
+      "pairs_total": 9,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 493,
+      "pair_id_next": 498
+    },
+    "EOG_20241108_EC": {
+      "turns_total": 32,
+      "pairs_total": 16,
+      "pairs_emitted": 8,
+      "pairs_triggered": 8,
+      "pair_id_start": 498,
+      "pair_id_next": 506
+    },
+    "ETN_20241031_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 506,
+      "pair_id_next": 506
+    },
+    "ET_2025Q1_EC": {
+      "turns_total": 30,
+      "pairs_total": 15,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 506,
+      "pair_id_next": 511
+    },
+    "E_20231027_EC": {
+      "turns_total": 19,
+      "pairs_total": 9,
+      "pairs_emitted": 8,
+      "pairs_triggered": 8,
+      "pair_id_start": 511,
+      "pair_id_next": 519
+    },
+    "E_20240424_EC": {
+      "turns_total": 30,
+      "pairs_total": 15,
+      "pairs_emitted": 15,
+      "pairs_triggered": 15,
+      "pair_id_start": 519,
+      "pair_id_next": 534
+    },
+    "FANG_20241105_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 534,
+      "pair_id_next": 538
+    },
+    "FE_20241030_EC": {
+      "turns_total": 35,
+      "pairs_total": 17,
+      "pairs_emitted": 10,
+      "pairs_triggered": 10,
+      "pair_id_start": 538,
+      "pair_id_next": 548
+    },
+    "FITB_20220721_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 548,
+      "pair_id_next": 548
+    },
+    "FITB_20230119_EC": {
+      "turns_total": 9,
+      "pairs_total": 4,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 548,
+      "pair_id_next": 552
+    },
+    "FITB_20230420_EC": {
+      "turns_total": 9,
+      "pairs_total": 4,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 552,
+      "pair_id_next": 554
+    },
+    "FITB_20231019_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 8,
+      "pairs_triggered": 8,
+      "pair_id_start": 554,
+      "pair_id_next": 562
+    },
+    "FITB_20240119_EC": {
+      "turns_total": 8,
+      "pairs_total": 4,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 562,
+      "pair_id_next": 565
+    },
+    "FITB_20240719_EC": {
+      "turns_total": 28,
+      "pairs_total": 14,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 565,
+      "pair_id_next": 570
+    },
+    "FITB_20250417_EC": {
+      "turns_total": 14,
+      "pairs_total": 7,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 570,
+      "pair_id_next": 574
+    },
+    "FI_20230207_EC": {
+      "turns_total": 11,
+      "pairs_total": 5,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 574,
+      "pair_id_next": 576
+    },
+    "FI_20240423_EC": {
+      "turns_total": 13,
+      "pairs_total": 6,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 576,
+      "pair_id_next": 579
+    },
+    "F_20250205_EC": {
+      "turns_total": 12,
+      "pairs_total": 6,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 579,
+      "pair_id_next": 582
+    },
+    "GEV_20240724_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 582,
+      "pair_id_next": 582
+    },
+    "GEV_20250122_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 582,
+      "pair_id_next": 582
+    },
+    "GE_20230425_EC": {
+      "turns_total": 22,
+      "pairs_total": 11,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 582,
+      "pair_id_next": 589
+    },
+    "GE_20240123_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 589,
+      "pair_id_next": 589
+    },
+    "GE_20241022_EC": {
+      "turns_total": 22,
+      "pairs_total": 11,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 589,
+      "pair_id_next": 593
+    },
+    "GM_2023Q2_EC": {
+      "turns_total": 4,
+      "pairs_total": 2,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 593,
+      "pair_id_next": 594
+    },
+    "GM_2023Q3_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 594,
+      "pair_id_next": 595
+    },
+    "GM_2024Q1_EC": {
+      "turns_total": 13,
+      "pairs_total": 6,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 595,
+      "pair_id_next": 599
+    },
+    "GM_2024Q3_EC": {
+      "turns_total": 4,
+      "pairs_total": 2,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 599,
+      "pair_id_next": 601
+    },
+    "GRMN_2025Q1_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 601,
+      "pair_id_next": 607
+    },
+    "HBANL_20210729_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 607,
+      "pair_id_next": 607
+    },
+    "HBANL_20220421_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 607,
+      "pair_id_next": 607
+    },
+    "HBANM_20221021_EC": {
+      "turns_total": 2,
+      "pairs_total": 1,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 607,
+      "pair_id_next": 608
+    },
+    "HBANM_20230420_EC": {
+      "turns_total": 15,
+      "pairs_total": 7,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 608,
+      "pair_id_next": 610
+    },
+    "HBANM_20240119_EC": {
+      "turns_total": 2,
+      "pairs_total": 1,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 610,
+      "pair_id_next": 611
+    },
+    "HBANM_20250417_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 611,
+      "pair_id_next": 612
+    },
+    "HCA_20230127_EC": {
+      "turns_total": 36,
+      "pairs_total": 18,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 612,
+      "pair_id_next": 619
+    },
+    "HCA_20230421_EC": {
+      "turns_total": 34,
+      "pairs_total": 17,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 619,
+      "pair_id_next": 626
+    },
+    "HCA_20241025_EC": {
+      "turns_total": 9,
+      "pairs_total": 4,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 626,
+      "pair_id_next": 627
+    },
+    "HCA_20250124_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 627,
+      "pair_id_next": 630
+    },
+    "HCA_20250425_EC": {
+      "turns_total": 12,
+      "pairs_total": 6,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 630,
+      "pair_id_next": 633
+    },
+    "HD_20240813_EC": {
+      "turns_total": 7,
+      "pairs_total": 3,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 633,
+      "pair_id_next": 636
+    },
+    "HES_20230125_EC": {
+      "turns_total": 7,
+      "pairs_total": 3,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 636,
+      "pair_id_next": 637
+    },
+    "HLT_2024Q3_EC": {
+      "turns_total": 17,
+      "pairs_total": 8,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 637,
+      "pair_id_next": 640
+    },
+    "HLT_2024Q4_EC": {
+      "turns_total": 26,
+      "pairs_total": 13,
+      "pairs_emitted": 8,
+      "pairs_triggered": 8,
+      "pair_id_start": 640,
+      "pair_id_next": 648
+    },
+    "HON_20241024_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 648,
+      "pair_id_next": 652
+    },
+    "HON_20250429_EC": {
+      "turns_total": 5,
+      "pairs_total": 2,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 652,
+      "pair_id_next": 654
+    },
+    "IBM_20220718_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 654,
+      "pair_id_next": 658
+    },
+    "IBM_20250129_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 658,
+      "pair_id_next": 661
+    },
+    "ICE_20230202_EC": {
+      "turns_total": 2,
+      "pairs_total": 1,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 661,
+      "pair_id_next": 662
+    },
+    "ICE_20240208_EC": {
+      "turns_total": 14,
+      "pairs_total": 7,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 662,
+      "pair_id_next": 663
+    },
+    "IDXX_20240806_EC": {
+      "turns_total": 8,
+      "pairs_total": 4,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 663,
+      "pair_id_next": 666
+    },
+    "IDXX_20250203_EC": {
+      "turns_total": 11,
+      "pairs_total": 5,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 666,
+      "pair_id_next": 671
+    },
+    "INFY_20250417_EC": {
+      "turns_total": 22,
+      "pairs_total": 11,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 671,
+      "pair_id_next": 676
+    },
+    "INTC_20220728_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 676,
+      "pair_id_next": 676
+    },
+    "INTC_20230727_EC": {
+      "turns_total": 21,
+      "pairs_total": 10,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 676,
+      "pair_id_next": 678
+    },
+    "INTC_20240125_EC": {
+      "turns_total": 15,
+      "pairs_total": 7,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 678,
+      "pair_id_next": 680
+    },
+    "INTC_20240425_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 680,
+      "pair_id_next": 684
+    },
+    "INTC_20241031_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 684,
+      "pair_id_next": 689
+    },
+    "INTC_20250130_EC": {
+      "turns_total": 23,
+      "pairs_total": 11,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 689,
+      "pair_id_next": 696
+    },
+    "IQV_20231101_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 696,
+      "pair_id_next": 699
+    },
+    "IQV_20241031_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 699,
+      "pair_id_next": 702
+    },
+    "IRM_20240502_EC": {
+      "turns_total": 11,
+      "pairs_total": 5,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 702,
+      "pair_id_next": 704
+    },
+    "IRM_20241106_EC": {
+      "turns_total": 19,
+      "pairs_total": 9,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 704,
+      "pair_id_next": 705
+    },
+    "IRM_20250501_EC": {
+      "turns_total": 13,
+      "pairs_total": 6,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 705,
+      "pair_id_next": 705
+    },
+    "IR_20220804_EC": {
+      "turns_total": 1,
+      "pairs_total": 0,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 705,
+      "pair_id_next": 705
+    },
+    "IR_20250502_EC": {
+      "turns_total": 2,
+      "pairs_total": 1,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 705,
+      "pair_id_next": 706
+    },
+    "ISRG_20240718_EC": {
+      "turns_total": 7,
+      "pairs_total": 3,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 706,
+      "pair_id_next": 709
+    },
+    "JNJ_20250415_EC": {
+      "turns_total": 8,
+      "pairs_total": 4,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 709,
+      "pair_id_next": 713
+    },
+    "JPM_20221014_EC": {
+      "turns_total": 19,
+      "pairs_total": 9,
+      "pairs_emitted": 9,
+      "pairs_triggered": 9,
+      "pair_id_start": 713,
+      "pair_id_next": 722
+    },
+    "JPM_20230113_EC": {
+      "turns_total": 20,
+      "pairs_total": 10,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 722,
+      "pair_id_next": 727
+    },
+    "JPM_20230414_EC": {
+      "turns_total": 19,
+      "pairs_total": 9,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 727,
+      "pair_id_next": 732
+    },
+    "JPM_20231013_EC": {
+      "turns_total": 23,
+      "pairs_total": 11,
+      "pairs_emitted": 10,
+      "pairs_triggered": 10,
+      "pair_id_start": 732,
+      "pair_id_next": 742
+    },
+    "JPM_20240112_EC": {
+      "turns_total": 23,
+      "pairs_total": 11,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 742,
+      "pair_id_next": 745
+    },
+    "JPM_20240712_EC": {
+      "turns_total": 33,
+      "pairs_total": 16,
+      "pairs_emitted": 8,
+      "pairs_triggered": 8,
+      "pair_id_start": 745,
+      "pair_id_next": 753
+    },
+    "JPM_20241011_EC": {
+      "turns_total": 20,
+      "pairs_total": 10,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 753,
+      "pair_id_next": 758
+    },
+    "JPM_20250610_EC": {
+      "turns_total": 17,
+      "pairs_total": 8,
+      "pairs_emitted": 5,
+      "pairs_triggered": 5,
+      "pair_id_start": 758,
+      "pair_id_next": 763
+    },
+    "KMB_20241022_EC": {
+      "turns_total": 7,
+      "pairs_total": 3,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 763,
+      "pair_id_next": 764
+    },
+    "KO_20220726_EC": {
+      "turns_total": 20,
+      "pairs_total": 10,
+      "pairs_emitted": 10,
+      "pairs_triggered": 10,
+      "pair_id_start": 764,
+      "pair_id_next": 774
+    },
+    "KO_20240213_EC": {
+      "turns_total": 14,
+      "pairs_total": 7,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 774,
+      "pair_id_next": 778
+    },
+    "KO_20240430_EC": {
+      "turns_total": 28,
+      "pairs_total": 14,
+      "pairs_emitted": 8,
+      "pairs_triggered": 8,
+      "pair_id_start": 778,
+      "pair_id_next": 786
+    },
+    "KVUE_20250206_EC": {
+      "turns_total": 20,
+      "pairs_total": 10,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 786,
+      "pair_id_next": 789
+    },
+    "KVUE_20250508_EC": {
+      "turns_total": 21,
+      "pairs_total": 10,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 789,
+      "pair_id_next": 796
+    },
+    "abnb_20230430_EC": {
+      "turns_total": 20,
+      "pairs_total": 10,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 796,
+      "pair_id_next": 803
+    },
+    "abnb_20230731_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 803,
+      "pair_id_next": 805
+    },
+    "abnb_20231031_EC": {
+      "turns_total": 28,
+      "pairs_total": 14,
+      "pairs_emitted": 7,
+      "pairs_triggered": 7,
+      "pair_id_start": 805,
+      "pair_id_next": 812
+    },
+    "abnb_20240430_EC": {
+      "turns_total": 8,
+      "pairs_total": 4,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 812,
+      "pair_id_next": 815
+    },
+    "abnb_20250430_EC": {
+      "turns_total": 37,
+      "pairs_total": 18,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 815,
+      "pair_id_next": 819
+    },
+    "as_20250430_EC": {
+      "turns_total": 14,
+      "pairs_total": 7,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 819,
+      "pair_id_next": 823
+    },
+    "cah_20221102_EC": {
+      "turns_total": 7,
+      "pairs_total": 3,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 823,
+      "pair_id_next": 825
+    },
+    "cah_20230201_EC": {
+      "turns_total": 18,
+      "pairs_total": 9,
+      "pairs_emitted": 9,
+      "pairs_triggered": 9,
+      "pair_id_start": 825,
+      "pair_id_next": 834
+    },
+    "cah_20230726_EC": {
+      "turns_total": 22,
+      "pairs_total": 11,
+      "pairs_emitted": 10,
+      "pairs_triggered": 10,
+      "pair_id_start": 834,
+      "pair_id_next": 844
+    },
+    "cah_20240731_EC": {
+      "turns_total": 4,
+      "pairs_total": 2,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 844,
+      "pair_id_next": 845
+    },
+    "cah_20250128_EC": {
+      "turns_total": 22,
+      "pairs_total": 11,
+      "pairs_emitted": 9,
+      "pairs_triggered": 9,
+      "pair_id_start": 845,
+      "pair_id_next": 854
+    },
+    "ci_20241031_EC": {
+      "turns_total": 8,
+      "pairs_total": 4,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 854,
+      "pair_id_next": 856
+    },
+    "dd_20230425_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 856,
+      "pair_id_next": 860
+    },
+    "hpq_20230131_EC": {
+      "turns_total": 13,
+      "pairs_total": 6,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 860,
+      "pair_id_next": 863
+    },
+    "hpq_20230731_EC": {
+      "turns_total": 8,
+      "pairs_total": 4,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 863,
+      "pair_id_next": 867
+    },
+    "hpq_20250131_EC": {
+      "turns_total": 33,
+      "pairs_total": 16,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 867,
+      "pair_id_next": 871
+    },
+    "hpq_20250430_EC": {
+      "turns_total": 23,
+      "pairs_total": 11,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 871,
+      "pair_id_next": 877
+    },
+    "hubs_20230131_EC": {
+      "turns_total": 3,
+      "pairs_total": 1,
+      "pairs_emitted": 0,
+      "pairs_triggered": 0,
+      "pair_id_start": 877,
+      "pair_id_next": 877
+    },
+    "hubs_20250423_EC": {
+      "turns_total": 28,
+      "pairs_total": 14,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 877,
+      "pair_id_next": 878
+    },
+    "hum_20240723_EC": {
+      "turns_total": 19,
+      "pairs_total": 9,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 878,
+      "pair_id_next": 881
+    },
+    "ibkr_20230430_EC": {
+      "turns_total": 9,
+      "pairs_total": 4,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 881,
+      "pair_id_next": 884
+    },
+    "ibkr_20230731_EC": {
+      "turns_total": 12,
+      "pairs_total": 6,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 884,
+      "pair_id_next": 887
+    },
+    "ibkr_20240430_EC": {
+      "turns_total": 12,
+      "pairs_total": 6,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 887,
+      "pair_id_next": 890
+    },
+    "iot_20240731_EC": {
+      "turns_total": 4,
+      "pairs_total": 2,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 890,
+      "pair_id_next": 891
+    },
+    "jd_20230823_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 891,
+      "pair_id_next": 895
+    },
+    "jd_20240516_EC": {
+      "turns_total": 8,
+      "pairs_total": 4,
+      "pairs_emitted": 4,
+      "pairs_triggered": 4,
+      "pair_id_start": 895,
+      "pair_id_next": 899
+    },
+    "jd_20240815_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 899,
+      "pair_id_next": 902
+    },
+    "jd_20250520_EC": {
+      "turns_total": 6,
+      "pairs_total": 3,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 902,
+      "pair_id_next": 905
+    },
+    "keys_20240502_EC": {
+      "turns_total": 14,
+      "pairs_total": 7,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 905,
+      "pair_id_next": 911
+    },
+    "keys_20240722_EC": {
+      "turns_total": 16,
+      "pairs_total": 8,
+      "pairs_emitted": 6,
+      "pairs_triggered": 6,
+      "pair_id_start": 911,
+      "pair_id_next": 917
+    },
+    "kr_20230914_EC": {
+      "turns_total": 9,
+      "pairs_total": 4,
+      "pairs_emitted": 2,
+      "pairs_triggered": 2,
+      "pair_id_start": 917,
+      "pair_id_next": 919
+    },
+    "kr_20231207_EC": {
+      "turns_total": 10,
+      "pairs_total": 5,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 919,
+      "pair_id_next": 922
+    },
+    "kr_20240307_EC": {
+      "turns_total": 9,
+      "pairs_total": 4,
+      "pairs_emitted": 3,
+      "pairs_triggered": 3,
+      "pair_id_start": 922,
+      "pair_id_next": 925
+    },
+    "kr_20241205_EC": {
+      "turns_total": 4,
+      "pairs_total": 2,
+      "pairs_emitted": 1,
+      "pairs_triggered": 1,
+      "pair_id_start": 925,
+      "pair_id_next": 926
+    }
+  },
+  "config": {
+    "merge_by_role_only": true,
+    "keep_all_pairs": false,
+    "numeric_valence_threshold": 0.0,
+    "min_audio_size_kb": 500
+  },
+  "pipeline_version": "v2-turn-level"
+}

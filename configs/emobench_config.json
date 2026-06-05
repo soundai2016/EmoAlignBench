@@ -1,0 +1,164 @@
+{
+  "dataset": {
+    "name": "EmoAlignBench",
+    "paper_title": "EmoAlignBench: Open Multimodal Mining of Acoustic Friction in High-Stakes Financial Dialogues",
+    "doi": "https://doi.org/10.57967/hf/7902",
+    "huggingface_dataset": "soundai2016/EmoAlignBench",
+    "raw_utterance_rows": 142751,
+    "source_audio_hours": 95.07,
+    "raw_cached_turn_rows": 1852,
+    "raw_pairs_before_signal_qc": 926,
+    "curated_valid_pairs": 812,
+    "curated_valid_turn_rows": 1624,
+    "unit_of_analysis": "role-aware Analyst->Executive adjacency pair"
+  },
+  "paths": {
+    "data_dir": "data",
+    "results_dir": "results",
+    "cached_acoustics_csv": "results/stress_pairs_with_acoustics.csv",
+    "cached_transcript_pairs_csv": "results/stress_pairs_with_transcripts.csv",
+    "metastats_json": "results/stress_pairs_with_metastats.json",
+    "paper_metrics_json": "results/paper_metrics.json",
+    "paper_metrics_csv": "results/paper_metrics.csv",
+    "validation_table_csv": "results/table_s1_validation_gates.csv",
+    "validation_table_json": "results/table_s1_validation_gates.json",
+    "split_table_csv": "results/table_s2_call_grouped_splits.csv",
+    "split_table_json": "results/table_s2_call_grouped_splits.json",
+    "artifact_consistency_json": "results/artifact_consistency_check.json"
+  },
+  "pairing": {
+    "analyst_role": "analyst",
+    "executive_role": "exec",
+    "keep_all_pairs": false,
+    "stress_lexicon": [
+      "downgrade",
+      "miss",
+      "shortfall",
+      "headwind",
+      "margin pressure",
+      "supply chain",
+      "inflation",
+      "recession",
+      "cash burn",
+      "debt",
+      "default",
+      "litigation",
+      "lawsuit",
+      "regulatory",
+      "sec",
+      "subpoena",
+      "layoff",
+      "restructuring",
+      "severance",
+      "bankrupt",
+      "chapter 11",
+      "liquidity",
+      "covenant",
+      "guidance cut",
+      "write-down",
+      "impairment"
+    ]
+  },
+  "validation": {
+    "required_columns": [
+      "uid",
+      "pair_id",
+      "turn_role",
+      "text",
+      "text_valence",
+      "voice_valence",
+      "emotion_incongruence",
+      "f0_std",
+      "hnr_proxy",
+      "voice_arousal"
+    ],
+    "required_pair_roles": [
+      "Analyst",
+      "Executive"
+    ],
+    "required_signal_columns": [
+      "text_valence",
+      "voice_valence",
+      "emotion_incongruence",
+      "f0_std",
+      "hnr_proxy",
+      "voice_arousal"
+    ],
+    "min_trimmed_sec": 0.2,
+    "max_ratio_value": 5.0
+  },
+  "scoring": {
+    "text_score_column": "text_valence",
+    "voice_score_column": "voice_valence",
+    "incongruence_column": "emotion_incongruence",
+    "incongruence_formula": "abs(v_text - v_voice)",
+    "voice_score_formula": "tanh(beta0 + w^T z(x_a(t))) or cached released voice score when reproducing the paper tables",
+    "cached_score_policy": "Paper figures and statistics are regenerated from cached per-turn scores to avoid external service drift."
+  },
+  "acoustics": {
+    "sample_rate": 16000,
+    "trim_top_db": 30.0,
+    "min_voice_sec": 0.2,
+    "harmonic_residual_epsilon": 1e-09,
+    "ratio_clip": 5.0,
+    "ratio_baseline_role": "Analyst",
+    "ratio_response_role": "Executive"
+  },
+  "statistics": {
+    "seed": 7,
+    "bootstrap_resamples": 2000,
+    "permutation_resamples": 4000,
+    "fdr_method": "Benjamini-Hochberg",
+    "split_key": "uid",
+    "split_fractions": {
+      "train": 0.7,
+      "validation": 0.15,
+      "test": 0.15
+    },
+    "expected_split_pair_counts": {
+      "train": 603,
+      "validation": 98,
+      "test": 111
+    },
+    "expected_split_uid_counts": {
+      "train": 141,
+      "validation": 30,
+      "test": 31
+    }
+  },
+  "paper_features": {
+    "baseline_table": [
+      "text_valence",
+      "voice_valence",
+      "f0_std",
+      "emotion_incongruence"
+    ],
+    "ratio_table": [
+      "f0_std_ratio",
+      "hnr_proxy_ratio",
+      "voice_arousal_ratio"
+    ],
+    "figure2_order": [
+      "f0_std_ratio",
+      "hnr_proxy_ratio",
+      "f0_std",
+      "voice_arousal_ratio",
+      "text_valence",
+      "voice_valence"
+    ]
+  },
+  "artifact_policy": {
+    "source_of_truth_for_validation_table": "validation_report.json",
+    "source_of_truth_for_split_table": "call_grouped_splits.json",
+    "supplementary_diagnostics_format": "csv_and_json_tables_only",
+    "supplementary_figures_generated": false,
+    "latex_metric_macros_generated": false,
+    "stale_files_removed": [
+      "FigS1_Validation_Gates.png",
+      "FigS1_Validation_Gates.pdf",
+      "FigS2_Call_Grouped_Splits.png",
+      "FigS2_Call_Grouped_Splits.pdf",
+      "paper_metrics.tex"
+    ]
+  }
+}

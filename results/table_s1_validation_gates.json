@@ -1,0 +1,123 @@
+{
+  "source_json": "validation_report.json",
+  "storage_policy": "json_or_csv_only",
+  "rows": [
+    {
+      "table": "S1_validation_gates",
+      "section": "dataset",
+      "metric": "raw_utterance_rows",
+      "value": 142751,
+      "expected": 142751,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "dataset",
+      "metric": "source_audio_hours",
+      "value": 95.07,
+      "expected": 95.07,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "cached_artifact",
+      "metric": "turn_rows_before_signal_pair_qc",
+      "value": 1852,
+      "expected": 1852,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "cached_artifact",
+      "metric": "pairs_before_signal_pair_qc",
+      "value": 926,
+      "expected": 926,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "structural_role",
+      "metric": "pairs_with_exactly_one_analyst_and_one_executive",
+      "value": 926,
+      "expected": 926,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "structural_role",
+      "metric": "pairs_with_duplicate_or_missing_roles",
+      "value": 0,
+      "expected": 0,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "structural_role",
+      "metric": "slice_start_before_end_for_all_rows",
+      "value": true,
+      "expected": true,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "signal",
+      "metric": "missing_required_signal_columns",
+      "value": 0,
+      "expected": 0,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "signal",
+      "metric": "complete_signal_pairs",
+      "value": 812,
+      "expected": 812,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "signal",
+      "metric": "complete_signal_turn_rows",
+      "value": 1624,
+      "expected": 1624,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "signal",
+      "metric": "dropped_pairs_after_signal_qc",
+      "value": 114,
+      "expected": 114,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "statistical",
+      "metric": "call_groups_available",
+      "value": 202,
+      "expected": 202,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    },
+    {
+      "table": "S1_validation_gates",
+      "section": "overall",
+      "metric": "overall_pass",
+      "value": true,
+      "expected": true,
+      "status": "PASS",
+      "source_json": "validation_report.json"
+    }
+  ]
+}

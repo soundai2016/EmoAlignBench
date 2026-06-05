@@ -1,0 +1,50 @@
+{
+  "source_json": "call_grouped_splits.json",
+  "storage_policy": "json_or_csv_only",
+  "rows": [
+    {
+      "table": "S2_call_grouped_splits",
+      "split": "train",
+      "n_uids": 141,
+      "n_pairs": 603,
+      "uid_fraction": 0.69802,
+      "pair_fraction": 0.742611,
+      "seed": 7,
+      "split_key": "uid",
+      "source_json": "call_grouped_splits.json"
+    },
+    {
+      "table": "S2_call_grouped_splits",
+      "split": "validation",
+      "n_uids": 30,
+      "n_pairs": 98,
+      "uid_fraction": 0.148515,
+      "pair_fraction": 0.12069,
+      "seed": 7,
+      "split_key": "uid",
+      "source_json": "call_grouped_splits.json"
+    },
+    {
+      "table": "S2_call_grouped_splits",
+      "split": "test",
+      "n_uids": 31,
+      "n_pairs": 111,
+      "uid_fraction": 0.153465,
+      "pair_fraction": 0.1367,
+      "seed": 7,
+      "split_key": "uid",
+      "source_json": "call_grouped_splits.json"
+    },
+    {
+      "table": "S2_call_grouped_splits",
+      "split": "total",
+      "n_uids": 202,
+      "n_pairs": 812,
+      "uid_fraction": 1.0,
+      "pair_fraction": 1.0,
+      "seed": 7,
+      "split_key": "uid",
+      "source_json": "call_grouped_splits.json"
+    }
+  ]
+}

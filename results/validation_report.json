@@ -1,0 +1,90 @@
+{
+  "dataset": {
+    "name": "EmoAlignBench",
+    "paper_title": "EmoAlignBench: Open Multimodal Mining of Acoustic Friction in High-Stakes Financial Dialogues",
+    "doi": "https://doi.org/10.57967/hf/7902",
+    "huggingface_dataset": "soundai2016/EmoAlignBench",
+    "raw_utterance_rows": 142751,
+    "source_audio_hours": 95.07,
+    "raw_cached_turn_rows": 1852,
+    "raw_pairs_before_signal_qc": 926,
+    "curated_valid_pairs": 812,
+    "curated_valid_turn_rows": 1624,
+    "unit_of_analysis": "role-aware Analyst->Executive adjacency pair"
+  },
+  "observed_cached_artifact": {
+    "turn_rows_before_signal_pair_qc": 1852,
+    "pairs_before_signal_pair_qc": 926,
+    "complete_signal_turn_rows": 1624,
+    "complete_signal_pairs": 812,
+    "uids_in_complete_signal_pairs": 202
+  },
+  "validation_gates": {
+    "structural_and_role": {
+      "pairs_with_exactly_one_analyst_and_one_executive": 926,
+      "pairs_with_duplicate_or_missing_roles": 0,
+      "slice_start_before_end_for_all_rows": true,
+      "observed_roles": [
+        "Analyst",
+        "Executive"
+      ]
+    },
+    "signal": {
+      "missing_required_signal_columns": [],
+      "finite_counts_by_signal_column": {
+        "text_valence": 1852,
+        "voice_valence": 1852,
+        "emotion_incongruence": 1852,
+        "f0_std": 1628,
+        "hnr_proxy": 1631,
+        "voice_arousal": 1852
+      },
+      "complete_signal_pairs": 812,
+      "dropped_pairs_after_signal_qc": 114,
+      "trimmed_duration_summary": {
+        "rows_ge_min_trimmed_sec": 1631,
+        "min_trimmed_sec": 0.1,
+        "median_trimmed_sec": 79.5195
+      }
+    },
+    "statistical": {
+      "cluster_key": "uid",
+      "bootstrap_resamples": 2000,
+      "permutation_resamples": 4000,
+      "paper_reported_pairs": 812,
+      "call_groups_available": 202
+    },
+    "overall_pass": true
+  },
+  "source_metastats": {
+    "uids_total": 231,
+    "uids_with_emitted_pairs": 216,
+    "pairs_emitted_total": 926,
+    "rows_emitted_total": 1852
+  },
+  "best_paper_artifact_checks": {
+    "fig0_framework_present": true,
+    "main_figures_present": true,
+    "main_paper_tables_present": true,
+    "supplementary_tables_present": true,
+    "paper_metrics_json_csv_present": true,
+    "latex_macro_outputs_present": false
+  },
+  "release_policy": {
+    "supplementary_diagnostics_format": "tables_only_csv_and_json",
+    "validation_table_source": "validation_report.json",
+    "split_table_source": "call_grouped_splits.json",
+    "stale_supplementary_figures_removed": true
+  },
+  "artifact_consistency_check": {
+    "all_ok": true,
+    "s2_counts_from_call_grouped_splits_json": {
+      "train": 603,
+      "validation": 98,
+      "test": 111
+    },
+    "s2_table_matches_call_grouped_splits_json": true,
+    "no_stale_supplementary_figures": true,
+    "no_latex_macro_result_files": true
+  }
+}

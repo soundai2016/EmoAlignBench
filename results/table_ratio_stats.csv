@@ -1,0 +1,4 @@
+interaction_ratio,base,mean,std,q_fdr,q_display
+Pitch variability ratio,1.0,1.6225,1.4571,3.844698180944048e-12,<0.001
+Harmonic-residual proxy ratio,1.0,1.1539,0.689,0.003883317088285122,0.004
+Voice arousal ratio,1.0,0.8571,0.55,2.4494368591473983e-14,<0.001

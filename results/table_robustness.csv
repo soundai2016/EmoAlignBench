@@ -1,0 +1,5 @@
+check,result
+Pearson coupling,"r=0.214, p=7.14e-10"
+Fisher-z interval,"95% CI [0.147, 0.279]"
+Cluster bootstrap,"2000 call-clustered resamples, CI [0.120, 0.309]"
+Within-call permutation,p=0.0027

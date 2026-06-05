@@ -1,0 +1,36 @@
+{
+  "source_of_truth_policy": {
+    "s1_table_source": "validation_report.json",
+    "s2_table_source": "call_grouped_splits.json",
+    "supplementary_figures_generated": false,
+    "table_storage": "json_or_csv_only"
+  },
+  "s1_rows_present": true,
+  "s2_counts_from_call_grouped_splits_json": {
+    "train": 603,
+    "validation": 98,
+    "test": 111
+  },
+  "s2_uid_counts_from_call_grouped_splits_json": {
+    "train": 141,
+    "validation": 30,
+    "test": 31
+  },
+  "s2_counts_from_table": {
+    "train": 603,
+    "validation": 98,
+    "test": 111
+  },
+  "s2_table_matches_call_grouped_splits_json": true,
+  "split_pair_counts_match_config_expectation": true,
+  "split_uid_counts_match_config_expectation": true,
+  "split_pair_total_matches_valid_pairs": true,
+  "split_uid_total_matches_valid_call_groups": true,
+  "no_uid_overlap": true,
+  "no_pair_overlap": true,
+  "no_stale_supplementary_figures": true,
+  "no_latex_macro_result_files": true,
+  "paper_metrics_json_csv_present": true,
+  "obsolete_result_files_present": [],
+  "all_ok": true
+}

@@ -1,0 +1,5 @@
+table,split,n_uids,n_pairs,uid_fraction,pair_fraction,seed,split_key,source_json
+S2_call_grouped_splits,train,141,603,0.69802,0.742611,7,uid,call_grouped_splits.json
+S2_call_grouped_splits,validation,30,98,0.148515,0.12069,7,uid,call_grouped_splits.json
+S2_call_grouped_splits,test,31,111,0.153465,0.1367,7,uid,call_grouped_splits.json
+S2_call_grouped_splits,total,202,812,1.0,1.0,7,uid,call_grouped_splits.json

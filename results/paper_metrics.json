@@ -1,0 +1,18 @@
+{
+  "num_pairs": 812,
+  "contagion_r": 0.214,
+  "contagion_p": 7.139559499267661e-10,
+  "contagion_fisher_ci": [
+    0.147,
+    0.279
+  ],
+  "contagion_cluster_ci": [
+    0.12,
+    0.309
+  ],
+  "within_call_permutation_p": 0.0027,
+  "pitch_variability_ratio_mean": 1.623,
+  "harmonic_residual_ratio_mean": 1.154,
+  "voice_arousal_ratio_mean": 0.857,
+  "storage_policy": "json_or_csv_only"
+}
