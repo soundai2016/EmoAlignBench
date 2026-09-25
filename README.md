@@ -2,25 +2,6 @@
 
 This repository contains the code, cached-score reproduction entry point, configuration files, paper figures, CSV/JSON tables, and validation utilities for **“EmoAlignBench: Open Multimodal Mining of Acoustic Friction in High-Stakes Financial Dialogues.”**
 
-## Current source-of-truth policy
-
-The final paper uses the manifest files as the only source of truth for supplemental diagnostics:
-
-- `validation_report.json` -> `table_s1_validation_gates.csv` and `table_s1_validation_gates.json`
-- `call_grouped_splits.json` -> `table_s2_call_grouped_splits.csv` and `table_s2_call_grouped_splits.json`
-
-## What this package reproduces
-
-The public release contains **142,751 timestamped utterance rows** from public earnings calls. The paper evaluates **812 signal-valid Analyst->Executive adjacency pairs** drawn from **95.07 hours** of Q&A-source audio. The cached analysis file `results/stress_pairs_with_acoustics.csv` contains 1,852 turn rows / 926 stress-triggered candidate pairs before signal-level pair QC.
-
-Core fields:
-
-- `text_valence`: transcript-side score, denoted v_text in the paper.
-- `voice_valence`: released voice/acoustic score, denoted v_voice in the paper.
-- `emotion_incongruence`: abs(v_text - v_voice), the acoustic-friction score.
-- `f0_std_ratio`, `hnr_proxy_ratio`, `voice_arousal_ratio`: Executive/Analyst interactional ratios.
-- `uid`: call identifier for call-clustered bootstrap, within-call permutation, and leakage-safe train/validation/test splits.
-
 ## Repository structure
 
 ```text
